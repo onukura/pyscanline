@@ -27,5 +27,4 @@ repos:
               ^helm-values/|
               ^.venv/
           )
-      # - id: check-json
       - id: detect-private-key
