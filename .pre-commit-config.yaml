@@ -1,0 +1,31 @@
+exclude: ^(.venv|venv|node_modules)/
+
+repos:
+  - repo: https://github.com/charliermarsh/ruff-pre-commit
+    rev: "v0.8.4"
+    hooks:
+      - id: ruff
+        args:
+          [
+            "--config",
+            "pyproject.toml",
+            "--output-format=full",
+            "--fix",
+            "--verbose",
+          ]
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: trailing-whitespace
+      - id: check-docstring-first
+      - id: check-added-large-files
+        args: ["--maxkb=5000"]
+      - id: check-toml
+      - id: check-yaml
+        exclude: |
+          (?x)(
+              ^helm-values/|
+              ^.venv/
+          )
+      # - id: check-json
+      - id: detect-private-key
