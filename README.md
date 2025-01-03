@@ -1,5 +1,10 @@
 # Scanline Effects in Python
 
+[![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
+[![image](https://img.shields.io/pypi/v/pyscanline.svg)](https://pypi.python.org/pypi/pyscanline)
+[![image](https://img.shields.io/pypi/l/pyscanline.svg)](https://pypi.python.org/pypi/pyscanline)
+[![Python package](https://github.com/onukura/pyscanline/actions/workflows/python-package.yml/badge.svg)](https://github.com/onukura/pyscanline/actions/workflows/python-package.yml)
+
 A Python-based library that recreates a retro-futuristic "scanline" style. It allows you to apply scanlines to:
 
 - **Static images** (PNG, JPEG, etc.)
