@@ -10,6 +10,31 @@ dependencies = [
     "numpy>=2.2.1",
     "pillow>=11.0.0",
 ]
+authors = [
+  {name = "onukura", email = "26293997+onukura@users.noreply.github.com"},
+]
+license = {file = "LICENSE"}
+keywords = ["Imaging"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Operating System :: OS Independent",
+  "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Scientific/Engineering :: Image Processing",
+  "Topic :: Multimedia :: Graphics :: Graphics Conversion",
+]
+
+[project.urls]
+Repository = "https://github.com/onukura/pyscanline"
+Documentation = "https://github.com/onukura/pyscanline"
+Releases = "https://github.com/onukura/pyscanline/releases"
+Issues = "https://github.com/onukura/pyscanline/issues"
 
 [dependency-groups]
 dev = [
@@ -24,9 +49,6 @@ dev = [
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
-
-[tool.hatch.build.targets.wheel]
-packages = ["pyscanline"]
 
 [tool.pytest.ini_options]
 minversion = "8.0"
