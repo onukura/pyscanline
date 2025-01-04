@@ -38,6 +38,7 @@ jobs:
     name: Upload release to TestPyPI
     runs-on: ubuntu-latest
     permissions:
+      contents: read
       id-token: write
     steps:
       - uses: actions/checkout@v4
