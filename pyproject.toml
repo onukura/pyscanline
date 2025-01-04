@@ -3,12 +3,12 @@ name = "pyscanline"
 version = "0.1.2"
 description = "A Python-based library that recreates a retro-futuristic style"
 readme = "README.md"
-requires-python = ">=3.9,<3.14"
+requires-python = ">=3.10,<3.14"
 dependencies = [
-    "imageio>=2,<=3",
-    "matplotlib>=3,<=4",
-    "numpy>=2,<3",
-    "pillow>=11,<12",
+    "imageio>=2,<3",
+    "matplotlib>=3,<4",
+    "numpy>=1,<3",
+    "pillow>=10,<12",
 ]
 authors = [
   {name = "onukura", email = "26293997+onukura@users.noreply.github.com"},
@@ -21,7 +21,6 @@ classifiers = [
   "Operating System :: OS Independent",
   "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
   "Programming Language :: Python",
-  "Programming Language :: Python :: 3.9",
   "Programming Language :: Python :: 3.10",
   "Programming Language :: Python :: 3.11",
   "Programming Language :: Python :: 3.12",
