@@ -3,7 +3,7 @@
 [![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
 [![image](https://img.shields.io/pypi/v/pyscanline.svg)](https://pypi.python.org/pypi/pyscanline)
 [![image](https://img.shields.io/pypi/l/pyscanline.svg)](https://pypi.python.org/pypi/pyscanline)
-[![Python package](https://github.com/onukura/pyscanline/actions/workflows/python-package.yml/badge.svg)](https://github.com/onukura/pyscanline/actions/workflows/python-package.yml)
+[![Python package](https://github.com/onukura/pyscanline/actions/workflows/test.yml/badge.svg)](https://github.com/onukura/pyscanline/actions/workflows/test.yml)
 
 A Python-based library that recreates a retro-futuristic "scanline" style. It allows you to apply scanlines to:
 
@@ -20,8 +20,6 @@ A Python-based library that recreates a retro-futuristic "scanline" style. It al
 - **GIF animation processing** via `scanline_gif()`:
   - Reads each GIF frame, flattens cumulatively (like R’s `image_flatten`), then applies the scanline effect.
   - Returns all frames plus per-frame durations, which can be saved as a new GIF.
-- **Matplotlib figure support**:
-  - Export plots to in-memory PNG and pass them into `scanline()` to produce stylized visualizations.
 
 ## Showcase
 
