@@ -4,4 +4,4 @@ set -e
 set -x
 
 pip install -U pip uv
-uv sync
+uv sync --compile-bytecode --link-mode=copy --frozen
