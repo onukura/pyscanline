@@ -1,14 +1,14 @@
 [project]
 name = "pyscanline"
-version = "0.1.1"
+version = "0.1.2"
 description = "A Python-based library that recreates a retro-futuristic style"
 readme = "README.md"
-requires-python = ">=3.10,<3.14"
+requires-python = ">=3.9,<3.14"
 dependencies = [
-    "imageio>=2.36.1",
-    "matplotlib>=3.10.0",
-    "numpy>=2.2.1",
-    "pillow>=11.0.0",
+    "imageio>=2,<=3",
+    "matplotlib>=3,<=4",
+    "numpy>=2,<3",
+    "pillow>=11,<12",
 ]
 authors = [
   {name = "onukura", email = "26293997+onukura@users.noreply.github.com"},
@@ -21,6 +21,7 @@ classifiers = [
   "Operating System :: OS Independent",
   "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
   "Programming Language :: Python",
+  "Programming Language :: Python :: 3.9",
   "Programming Language :: Python :: 3.10",
   "Programming Language :: Python :: 3.11",
   "Programming Language :: Python :: 3.12",
@@ -38,12 +39,12 @@ Issues = "https://github.com/onukura/pyscanline/issues"
 
 [dependency-groups]
 dev = [
-    "ipykernel>=6.29.5",
-    "ipython>=8.31.0",
-    "pre-commit>=4.0.1",
-    "pytest-cov>=6.0.0",
-    "pytest>=8.3.4",
-    "ruff>=0.8.4",
+    "ipykernel>=6,<7",
+    "ipython>=8,<9",
+    "pre-commit>=4,<5",
+    "pytest-cov>=6,<7",
+    "pytest>=8,<9",
+    "ruff>=0,<1",
 ]
 
 [build-system]
