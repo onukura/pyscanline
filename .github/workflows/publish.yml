@@ -41,7 +41,7 @@ jobs:
       contents: read
       id-token: write
     environment:
-      name: testpypi
+      name: pypi
       url: https://test.pypi.org/p/pyscanline
     steps:
       - uses: actions/checkout@v4
